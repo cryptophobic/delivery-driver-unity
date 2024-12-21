@@ -37,7 +37,7 @@ public class Delivery : MonoBehaviour
             _package = other.gameObject;
             other.gameObject.SetActive(false);
             _spriteRenderer.color = hasPackageColor;
-            _driver.MoveSpeed /= 2;
+            _driver.MoveSpeed /= 4;
             _driver.SteerSpeed /= 2;
             Debug.Log("Taken");
         }
@@ -47,7 +47,7 @@ public class Delivery : MonoBehaviour
             Debug.LogFormat("Delivered {0}", _package.name);
             Destroy(_package, destroyDelay);
             _spriteRenderer.color = noPackageColor;
-            _driver.MoveSpeed *= 2;
+            _driver.MoveSpeed *= 4;
             _driver.SteerSpeed *= 2;
             // package.SetActive(true);
             _package = null;

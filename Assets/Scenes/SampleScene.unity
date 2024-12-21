@@ -460,8 +460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea7ad2d5f5b844dba371cf08f268bce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steerSpeed: 300
-  moveSpeed: 20
+  _steerSpeed: 300
+  _moveSpeed: 20
 --- !u!212 &195182452
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -573,10 +573,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasPackageColor:
     serializedVersion: 2
-    rgba: 16843009
+    rgba: 4278782350
   noPackageColor:
     serializedVersion: 2
-    rgba: 16843009
+    rgba: 4279529225
   destroyDelay: 0.5
 --- !u!61 &195182457
 BoxCollider2D:
